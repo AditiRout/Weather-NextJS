@@ -11,7 +11,7 @@ module.exports={
     ]
   },nextConfig,
   env:{
-    NEXT_PUBLIC_WEATHER_KEY: '622117cd98d4d2ab775f66e5fb7336ea'
+    NEXT_PUBLIC_WEATHER_KEY: process.env.NEXT_PUBLIC_WEATHER_KEY
   }
 }
 
