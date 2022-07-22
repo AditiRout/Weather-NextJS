@@ -9,6 +9,9 @@ module.exports={
     domains:[
       'images.unsplash.com','openweathermap.org'
     ]
+  },nextConfig,
+  env:{
+    NEXT_PUBLIC_WEATHER_KEY: '622117cd98d4d2ab775f66e5fb7336ea'
   }
 }
 
