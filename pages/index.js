@@ -35,7 +35,8 @@ export default function Home() {
           <link rel='icon' href='/favicon.ico' />
         </Head>
         {/* Overlay */}
-        <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-[1] bg-[url(https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2575&q=80)] bg-no-repeat bg-cover bg-center' />
+        <div className='absolute top-0 left-0 right-0 bottom-0  bg-[url(https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2575&q=80)] bg-no-repeat bg-cover bg-center object-cover' />
+        
         {/* Background image */}
         {/* <Image
           src='https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2575&q=80'
@@ -44,7 +45,7 @@ export default function Home() {
         /> */}
 
         {/* Search */}
-        <div className='relative flex justify-between items-center max-w-[500px] w-full m-auto pt-4 px-4 text-white z-10'>
+        <div className='relative flex justify-between items-center max-w-[500px] w-full m-auto pt-4 px-4 text-black z-10'>
           <form
             onSubmit={fetchWeather}
             className='flex justify-between items-center w-full m-auto p-3 bg-transparent border border-gray-300 text-white rounded-2xl'
@@ -52,7 +53,7 @@ export default function Home() {
             <div>
               <input
                 onChange={(e) => setCity(e.target.value)}
-                className='bg-transparent border-none text-white focus:outline-none text-2xl'
+                className='bg-transparent border-none text-black focus:outline-none text-2xl'
                 type='text'
                 placeholder='Search city'
               />
