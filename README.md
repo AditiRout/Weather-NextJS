@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 Website link: https://weather-nextjs-production.up.railway.app/
-https://weather-finder-next.herokuapp.com/
+
 
 ## Getting Started
 
